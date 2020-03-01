@@ -28,10 +28,10 @@ public class CustomerController {
 		repository.save(new Customer("Rajesh", "Bhojwani"));
 		
 		// save a list of Customers
-        repository.saveAll(Arrays.asList(new Customer("Salim", "Khan")
+        repository.saveAll(Arrays.asList(new Customer("Sachin", "Tendulkar")
                        , new Customer("Raghav", "R")
                        , new Customer("Rahul", "Dravid")
-                       , new Customer("Dharmendra", "Bhojwani")));
+                       , new Customer("MS", "Dhoni")));
 		
 		return "Customers are created";
 	}
